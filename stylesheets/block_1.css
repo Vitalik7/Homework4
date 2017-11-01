@@ -41,7 +41,7 @@
 	font-size: 20px;
 }
 
-@media only screen and (max-width: 1180px) {
+@media screen and (max-width: 1180px) {
 	.block_1 {
 		position: relative;
 		float: left;
@@ -67,7 +67,7 @@
 	}
 }
 
-@media only screen and (max-width: 850px) {
+@media screen and (max-width: 850px) {
 	.block_1 {
 		height: auto;
 	}
@@ -94,11 +94,39 @@
 	}
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
 	.block_1 img {
 		position: relative;
 		float: left;
 		width: 100%;
 	    height: auto;
+	}
+}
+
+@media screen and (max-device-width: 600px) {
+	.block_1 {
+		height: auto;
+	}
+	.block_1 img {
+		position: relative;
+		float: left;
+		width: 100%;
+	    height: auto;
+	}
+	.text {
+		float: left;
+		width: 100%;
+	}
+	.text h1 {
+		right: 0;
+		width: 100%;
+		font-size: 70px;
+		text-align: center;	
+	}
+	.text h3 {
+		font-size: 50px;
+	}
+	.text p {
+		font-size: 30px;
 	}
 }

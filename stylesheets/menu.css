@@ -32,11 +32,38 @@
 	display: none;	
 }
 
-@media only screen and (max-width: 850px) {
+@media screen and (max-width: 850px) {
 	.menu ul li {
 		right: 0;
 		width: 100%;
 		height: auto;
+	}
+	.menu ul li a {
+		font-size: 35px;
+	}
+	.menu img {
+		float: right;
+		width: 20px;
+		height: 20px;
+		margin-top: 0;
+	}
+	.menu img.limpid {
+		display: block;
+		float: left;
+	}
+	.menu img.limpid1 {
+		display: block;
+		float: right;
+	}
+}
+@media screen and (max-device-width: 600px) {
+	.menu ul li {
+		right: 0;
+		width: 100%;
+		height: auto;
+	}
+	.menu ul li a {
+		font-size: 60px;
 	}
 	.menu img {
 		float: right;

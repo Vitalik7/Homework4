@@ -34,7 +34,7 @@
 	background: #eeeefa;
 }
 
-@media only screen and (max-width: 1180px) {
+@media screen and (max-width: 1180px) {
 	.about_lab h2 {
 		font-size: 25px;
 	}
@@ -48,7 +48,7 @@
 		height: 400px;
 	}
 }
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px)  {
 	.about_lab {
 		left: 0;
 		float: initial;
@@ -64,6 +64,28 @@
 	}
 	.about_lab p {
 		font-size: 18px;
+	}
+	.about_lab hr {
+		width: 0;
+	}
+}
+
+@media screen and (max-device-width: 600px)  {
+	.about_lab {
+		left: 0;
+		float: initial;
+		width: 100%;
+		height: auto;
+	}
+	.about_lab h2 {
+		font-size: 70px;
+		text-align: center;
+	}
+	.about_lab h3 {
+		font-size: 50px;
+	}
+	.about_lab p {
+		font-size: 30px;
 	}
 	.about_lab hr {
 		width: 0;
