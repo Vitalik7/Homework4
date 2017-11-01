@@ -1,0 +1,71 @@
+.about_lab {
+	position: relative;
+    left: 5%;
+	float: left;
+	width: 27%;
+}
+.about_lab h2 {
+	color: #093500;
+	font-family: "PT Sans";
+	font-size: 30px;
+	font-weight: 400;
+}
+.about_lab h3 {
+	margin: 0;
+	color: #7da538;
+	font-family: Tahoma;
+	font-size: 20px;
+    font-weight: 400;	
+}
+.about_lab p {
+	margin-top: 0;
+	color: #03350a;
+	font-family: Tahoma;
+	font-size: 20px;
+}
+.about_lab hr {
+	position: relative;
+	left: 15%;
+	float: right;
+	width: 4px;
+	height: 437px;  
+	margin-top: 10%;
+	border: 0; 
+	background: #eeeefa;
+}
+
+@media only screen and (max-width: 1180px) {
+	.about_lab h2 {
+		font-size: 25px;
+	}
+	.about_lab h3 {
+		font-size: 18px;
+	}
+	.about_lab p {
+		font-size: 15px;
+	}
+	.about_lab hr {
+		height: 400px;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.about_lab {
+		left: 0;
+		float: initial;
+		width: 100%;
+		height: auto;
+	}
+	.about_lab h2 {
+		font-size: 27px;
+		text-align: center;
+	}
+	.about_lab h3 {
+		font-size: 20px;
+	}
+	.about_lab p {
+		font-size: 18px;
+	}
+	.about_lab hr {
+		width: 0;
+	}
+}

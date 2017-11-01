@@ -1,0 +1,55 @@
+.menu {
+	float: left;
+	width: 100%
+}
+.menu ul {
+	height: 30px;
+	font-family: "Myriad Pro";
+	list-style: none;
+}
+.menu ul li {
+	position: relative;
+	right: 3%;
+	float: left;
+	width: 20%;
+	text-align: center;
+}
+.menu ul li a {
+	color: #03350a;
+	font-size: 25px;
+	text-decoration: none;
+}
+.menu img {
+	float: right;
+	width: 20px;
+	height: 20px;
+	margin-top: 4%;
+}
+.menu img.limpid {
+	display: none;
+}
+.menu img.limpid1 {
+	display: none;	
+}
+
+@media only screen and (max-width: 850px) {
+	.menu ul li {
+		right: 0;
+		width: 100%;
+		height: auto;
+	}
+	.menu img {
+		float: right;
+		width: 20px;
+		height: 20px;
+		margin-top: 0;
+	}
+	.menu img.limpid {
+		display: block;
+		float: left;
+	}
+	.menu img.limpid1 {
+		display: block;
+		float: right;
+	}
+}
