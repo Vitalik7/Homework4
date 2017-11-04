@@ -14,22 +14,26 @@
 	width: 20%;
 	text-align: center;
 }
-.menu ul li a {
+.menu ul li span {
 	color: #03350a;
 	font-size: 25px;
 	text-decoration: none;
 }
-.menu img {
-	float: right;
-	width: 20px;
-	height: 20px;
-	margin-top: 4%;
+.menu span.limpid:after {
+    content: url('file:///Users/vitaliklavrenko/Desktop/GeekHub/Homework_4/img/arrow.png');
+    display: block;
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-top: 2%;
+
 }
-.menu img.limpid {
-	display: none;
-}
-.menu img.limpid1 {
-	display: none;	
+.menu span.limpid:before, span.limpid_1:before {
+    content: "";
+    display: none;
+    float: right;
+    width: 20px;
+    height: 20px; 
 }
 
 @media screen and (max-width: 850px) {
@@ -38,22 +42,26 @@
 		width: 100%;
 		height: auto;
 	}
-	.menu ul li a {
+	.menu ul li span {
 		font-size: 35px;
 	}
-	.menu img {
-		float: right;
-		width: 20px;
-		height: 20px;
-		margin-top: 0;
+	.menu span.limpid_1:after {
+	    content: url('file:///Users/vitaliklavrenko/Desktop/GeekHub/Homework_4/img/arrow.png');
+	    display: block;
+	    float: left;
+	    width: 20px;
+	    height: 20px;
+	    margin-top: 2%;
 	}
-	.menu img.limpid {
-		display: block;
-		float: left;
-	}
-	.menu img.limpid1 {
-		display: block;
-		float: right;
+
+	.menu span.limpid:before, span.limpid_1:before {
+		content: url('file:///Users/vitaliklavrenko/Desktop/GeekHub/Homework_4/img/arrow.png');
+	    display: block;
+	    float: right;
+	    width: 20px;
+	    height: 20px;
+	    margin-top: 2%;
+	    margin-right: 6%; 
 	}
 }
 @media screen and (max-device-width: 600px) {
@@ -62,21 +70,24 @@
 		width: 100%;
 		height: auto;
 	}
-	.menu ul li a {
+	.menu ul li span {
 		font-size: 60px;
 	}
-	.menu img {
-		float: right;
-		width: 20px;
-		height: 20px;
-		margin-top: 0;
+	.menu span.limpid:after, span.limpid_1:after {
+	    content: url('file:///Users/vitaliklavrenko/Desktop/GeekHub/Homework_4/img/arrow.png');
+	    display: block;
+	    float: left;
+	    width: 20px;
+	    height: 20px;
+	    margin: 0; 
 	}
-	.menu img.limpid {
-		display: block;
-		float: left;
-	}
-	.menu img.limpid1 {
-		display: block;
-		float: right;
+	.menu span.limpid:before, span.limpid_1:before {
+		content: url('file:///Users/vitaliklavrenko/Desktop/GeekHub/Homework_4/img/arrow.png');
+	    display: block;
+	    float: right;
+	    width: 20px;
+	    height: 20px;
+	    margin-top: 0;
+	    margin-right: 6%; 
 	}
 }
