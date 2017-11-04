@@ -20,7 +20,7 @@
 	text-decoration: none;
 }
 .menu span.limpid:after {
-    content: url('file:///Users/vitaliklavrenko/Desktop/GeekHub/Homework_4/img/arrow.png');
+    content: url('https://cdn1.savepice.ru/uploads/2017/11/5/740a724404823a52f11afaec179e1ea4-full.png');
     display: block;
     float: left;
     width: 20px;
@@ -46,7 +46,7 @@
 		font-size: 35px;
 	}
 	.menu span.limpid_1:after {
-	    content: url('file:///Users/vitaliklavrenko/Desktop/GeekHub/Homework_4/img/arrow.png');
+	    content: url('https://cdn1.savepice.ru/uploads/2017/11/5/740a724404823a52f11afaec179e1ea4-full.png');
 	    display: block;
 	    float: left;
 	    width: 20px;
@@ -55,7 +55,7 @@
 	}
 
 	.menu span.limpid:before, span.limpid_1:before {
-		content: url('file:///Users/vitaliklavrenko/Desktop/GeekHub/Homework_4/img/arrow.png');
+		content: url('https://cdn1.savepice.ru/uploads/2017/11/5/740a724404823a52f11afaec179e1ea4-full.png');
 	    display: block;
 	    float: right;
 	    width: 20px;
@@ -74,7 +74,7 @@
 		font-size: 60px;
 	}
 	.menu span.limpid:after, span.limpid_1:after {
-	    content: url('file:///Users/vitaliklavrenko/Desktop/GeekHub/Homework_4/img/arrow.png');
+	    content: url('https://cdn1.savepice.ru/uploads/2017/11/5/740a724404823a52f11afaec179e1ea4-full.png');
 	    display: block;
 	    float: left;
 	    width: 20px;
@@ -82,7 +82,7 @@
 	    margin: 0; 
 	}
 	.menu span.limpid:before, span.limpid_1:before {
-		content: url('file:///Users/vitaliklavrenko/Desktop/GeekHub/Homework_4/img/arrow.png');
+		content: url('https://cdn1.savepice.ru/uploads/2017/11/5/740a724404823a52f11afaec179e1ea4-full.png');
 	    display: block;
 	    float: right;
 	    width: 20px;
